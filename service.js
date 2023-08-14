@@ -1,5 +1,5 @@
 function getGrade(marks) {
-  if (marks >= 80) {
+  if (marks >= 80 && marks >=0) {
     return "A";
   } else if (marks >= 70 && marks < 80) {
     return "B";
