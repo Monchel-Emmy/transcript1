@@ -50,6 +50,15 @@ const electronicG = document.querySelector(".electronicG");
 const databaseG = document.querySelector(".databaseG");
 const citizenshipG = document.querySelector(".citizenshipG");
 
+// names and reg
+const first = document.querySelector(".firstname");
+const second = document.querySelector(".lastname");
+const reg = document.querySelector(".reg");
+
+const Fname = prompt('enter first name')
+const Sname = prompt('enter second name')
+const Reg = prompt('enter registration number')
+
 // sem 1 marks
 const ictMarks = parseFloat(prompt("Enter Ict marks"));
 const math1Marks = parseFloat(prompt("Enter mathematics1 marks"));
@@ -68,6 +77,12 @@ const discretMarks = parseFloat(prompt("Enter discret Mathematics marks"));
 const electronicMarks = parseFloat(prompt("Enter electronic marks"));
 const databaseMarks = parseFloat(prompt("Enter database marks"));
 const citizenshipMarks = parseFloat(prompt("Enter citizenship marks"));
+
+
+// assigning names
+first.innerHTML = Fname
+second.innerHTML = Sname
+reg.innerHTML = Reg
 
 // Assigning the values to the fields for sem 1
 ictM.innerHTML = ictMarks;
