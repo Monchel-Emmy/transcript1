@@ -54,6 +54,9 @@ const citizenshipG = document.querySelector(".citizenshipG");
 const first = document.querySelector(".firstname");
 const second = document.querySelector(".lastname");
 const reg = document.querySelector(".reg");
+const lowerName = document.querySelector(".lowerName");
+const lowerReg = document.querySelector(".lowerReg");
+
 
 const Fname = prompt('enter first name')
 const Sname = prompt('enter second name')
@@ -83,6 +86,8 @@ const citizenshipMarks = parseFloat(prompt("Enter citizenship marks"));
 first.innerHTML = Fname
 second.innerHTML = Sname
 reg.innerHTML = Reg
+lowerName.innerHTML = Fname
+lowerReg.innerHTML = Reg
 
 // Assigning the values to the fields for sem 1
 ictM.innerHTML = ictMarks;
